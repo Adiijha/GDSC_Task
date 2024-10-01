@@ -6,19 +6,19 @@
 
 @font-face {
     font-family: 'style';
-    src: url(/Bold\ &\ Stylish\ Calligraphy.ttf);
+    src: url(Fonts/Bold\ &\ Stylish\ Calligraphy.ttf);
 }
 @font-face {
     font-family: 'text';
-    src: url(/Quikhand.ttf)
+    src: url(Fonts/Quikhand.ttf)
 }
 @font-face {
     font-family: 'hindi';
-    src: url(/AMS\ Lekhan\ 1.ttf);
+    src: url(Fonts/AMS\ Lekhan\ 1.ttf);
 }
 @font-face {
     font-family: 'hindi-piyush';
-    src: url(/AMS\ Piyush.ttf);
+    src: url(Fonts/AMS\ Piyush.ttf);
 }
 
 body{

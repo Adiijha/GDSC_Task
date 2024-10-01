@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'style';
+    src: url(/GDSC_WORK/Bold\ &\ Stylish\ Calligraphy.ttf);
+}
+@font-face {
+    font-family: 'text';
+    src: url(/GDSC_WORK/Quikhand.ttf)
+}
+@font-face {
+    font-family: 'hindi';
+    src: url(/GDSC_WORK/AMS\ Lekhan\ 1.ttf);
+}
+@font-face {
+    font-family: 'hindi-piyush';
+    src: url(/GDSC_WORK/AMS\ Piyush.ttf);
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.info{
+    font-family: 'text';
+    font-size: large;
+    margin-top: 15px;
+    letter-spacing: 3px;
+    text-align: end;
+}
+
+#main{
+    width: 70%;
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top{
+    width: 100%;
+    height: 70%;  
+    display: flex;
+}
+
+.left{
+    width: 33%;
+    height: 100%;
+    background-color: #264653;
+    border-top-left-radius: 30px;
+    margin-right: 15px;
+}
+
+.left-text{
+    text-align: center;
+    font-family:'text';
+    color: white;
+    font-size: 40px;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+.center{
+    width: 34%;
+    height: 100%;
+
+    
+}
+
+.ctop{
+    width: 100%;
+    height: 40%;
+    background-color: #2a9d8f;
+    margin-bottom: 15px;
+}
+.ctop-text{
+    text-align: center;
+    font-family:'text';
+    color: white;
+    font-size: 40px;
+    top: 33%;
+    position: relative;
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+
+.cbottom{
+    width: 100%;
+    height: 56.5%;
+    background-color: rgba(24, 24, 24, 0.596);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+p{
+    text-align: center;
+    font-family: 'style';
+    color: white;
+    font-size: 35px;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    text-shadow: 0px 0px 50px white;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+
+.right{
+    width: 33%;
+    height: 100%;
+    background-color:#a2d2ff;
+    border-top-right-radius: 30px ;
+    margin-left: 15px;
+}
+
+.right-text{
+    text-align: center;
+    font-family:'text';
+    color: white;
+    font-size: 30px;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    letter-spacing: 3px;
+    font-weight: 550;
+}
+img{
+    border-radius: 100%;
+}
+.bottom{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    margin-top: 15px;
+}
+
+.bright{
+    width: 62%;
+    height: 100%;
+    background-color: #ffafcc;
+    border-bottom-left-radius: 30px;
+}
+.bright-text{
+    text-align: center;
+    font-family:'hindi-piyush';
+    color: white;
+    font-size: 40px;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+.bleft{
+    width: 38%;
+    height: 100%;
+    border-bottom-right-radius: 30px ;
+    background-color: #e76f51;
+    margin-left: 15px;
+}
+
+.bleft-text{
+    text-align: center;
+    font-family:'hindi';
+    color: white;
+    font-size: 40px;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    letter-spacing: 2px;
+    font-weight: 400;
+    
+}

@@ -187,3 +187,33 @@ img{
     font-weight: 400;
     
 }
+
+@media screen and (max-width:800px) {
+    .left-text{
+        font-size: 17px;
+    }
+    .ctop-text{
+        font-size: 15px;
+    }
+    .right-text{
+        font-size: 15px;
+    }
+    .bright-text{
+        font-size: 20px;
+    }
+    .bleft-text{
+        font-size: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .info{
+        font-size: 15px;
+    }
+    img{
+        width: 70px;
+        height: 70px;
+    }
+
+}
+
